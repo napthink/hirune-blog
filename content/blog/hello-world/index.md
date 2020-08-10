@@ -1,22 +1,18 @@
 ---
-title: Hello World
-date: "2015-05-01T22:12:03.284Z"
-description: "Hello World"
+title: 最初の投稿
+date: "2020-08-10T00:00:00.000Z"
+description: "このブログの主旨"
 ---
 
-This is my first post on my new fake blog! How exciting!
+こんにちは、hiruneです。
 
-I'm sure I'll write a lot more interesting things in the future.
+業務ではC言語でLinux上に構築されたシステムの開発を行っています。
+個人では趣味でPythonを使うことが多いです。
 
-Oh, and here's a great quote from this Wikipedia on
-[salted duck eggs](https://en.wikipedia.org/wiki/Salted_duck_egg).
+このブログでは、技術的なメモを書いていく予定です。
+なるべく週に一度のペースで投稿することを目標にします。
 
-> A salted duck egg is a Chinese preserved food product made by soaking duck
-> eggs in brine, or packing each egg in damp, salted charcoal. In Asian
-> supermarkets, these eggs are sometimes sold covered in a thick layer of salted
-> charcoal paste. The eggs may also be sold with the salted paste removed,
-> wrapped in plastic, and vacuum packed. From the salt curing process, the
-> salted duck eggs have a briny aroma, a gelatin-like egg white and a
-> firm-textured, round yolk that is bright orange-red in color.
+Twitter: [hirune \(@hk03ne\) / Twitter](https://twitter.com/hk03ne)
 
-![Chinese Salty Egg](./salty_egg.jpg)
+何かあれば気軽に絡んで頂けるとうれしいです。
+
