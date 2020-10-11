@@ -6,7 +6,7 @@ description: ""
 
 スクレイピングに興味があったので、[PythonによるWebスクレイピング 第2版 \| Ryan Mitchell, 嶋田 健志, 黒川 利明 \|本 \| 通販 \| Amazon](https://www.amazon.co.jp/Python%E3%81%AB%E3%82%88%E3%82%8BWeb%E3%82%B9%E3%82%AF%E3%83%AC%E3%82%A4%E3%83%94%E3%83%B3%E3%82%B0-%E7%AC%AC2%E7%89%88-Ryan-Mitchell/dp/4873118719)を読んでいる。
 
-GithubでJypyter notebooksが公開されていて（[REMitchell/python\-scraping: Code samples from the book Web Scraping with Python](https://github.com/REMitchell/python-scraping)）、実際にコードを動かしながら読めるのでわかりやすい。3章までに読んだ内容を元に、スクレイピングの練習をしてみる。
+GithubでJupyter notebooksが公開されていて（[REMitchell/python\-scraping: Code samples from the book Web Scraping with Python](https://github.com/REMitchell/python-scraping)）、実際にコードを動かしながら読めるのでわかりやすい。3章までに読んだ内容を元に、スクレイピングの練習をしてみる。
 
 ## 架空のオンライン書店のスクレイピング
 
@@ -75,7 +75,7 @@ http://books.toscrape.com/catalogue/category/books/womens-fiction_9/index.html
 
 ```
 
-基本的には 『PythonによるWebスクレイピング』の[第3章のコード例](https://github.com/REMitchell/python-scraping/blob/master/Chapter03-web-crawlers.ipynb) とそれほど変わらないが、いくつ変えたところもある。以下で説明する。
+基本的には 『PythonによるWebスクレイピング』の[第3章のコード例](https://github.com/REMitchell/python-scraping/blob/master/Chapter03-web-crawlers.ipynb) とそれほど変わらないが、いくつか変えたところもある。以下で説明する。
 
 
 ### 相対URLを絶対URLに変換する
@@ -152,7 +152,7 @@ title = bs.h1.get_text()
 
 ![価格の取得](./02_get_price.png)
 
-ただし、本によっては他の本の情報を下の方に表示しているものがあるため（例えば[The Black Maria \| Books to Scrape \- Sandbox](http://books.toscrape.com/catalogue/the-black-maria_991/index.html)）、表品ページの上の方に載っているメインの商品の価格のみを取得できるようにしたい。開発者ツールを使ってメインの商品の情報の部分を選択すると、`product_main` というクラス属性が付与された `div` タグで囲まれていることがわかる。
+ただし、本によっては他の本の情報を下の方に表示しているものがあるため（例えば[The Black Maria \| Books to Scrape \- Sandbox](http://books.toscrape.com/catalogue/the-black-maria_991/index.html)）、ページの上の方に載っているメインの商品の価格のみを取得できるようにしたい。開発者ツールを使ってメインの商品の情報の部分を選択すると、`product_main` というクラス属性が付与された `div` タグで囲まれていることがわかる。
 
 ![メインの商品の情報を得る](03_product_main.png)
 
