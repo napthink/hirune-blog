@@ -2,6 +2,7 @@
 title: 最初の投稿
 date: "2020-08-10T00:00:00.000Z"
 description: ""
+tags: ["雑記"]
 ---
 
 こんにちは、hiruneです。
