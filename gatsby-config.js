@@ -3,9 +3,9 @@ module.exports = {
     title: `hirune's Blog`,
     author: {
       name: `hirune`,
-      summary: `技術メモを書いていく予定`,
+      summary: `日記やプログラミングに関するメモなど`,
     },
-    description: `技術メモを書いていく予定`,
+    description: `日記やプログラミングに関するメモなど`,
     siteUrl: `https://gatsby-starter-blog-demo.netlify.app/`,
     social: {
       twitter: `hk03ne`,
