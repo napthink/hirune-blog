@@ -58,7 +58,19 @@ const Layout = ({ location, title, children }) => {
     >
       <header>{header}</header>
       <main>{children}</main>
-      <footer>
+      <footer
+        style={{
+          marginBottom: 0,
+          marginTop: rhythm(1.5),
+        }}
+      >
+        {
+          <p>
+            <a href="https://app.netlify.com/sites/hirune-blog/deploys">
+              <img src="https://api.netlify.com/api/v1/badges/f2753f9e-c221-40f9-bea4-077d69cc8e95/deploy-status"></img>
+            </a>
+          </p>
+        }
         © {new Date().getFullYear()}, Built with
         {` `}
         <a href="https://www.gatsbyjs.org">Gatsby</a>
