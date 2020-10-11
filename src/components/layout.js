@@ -67,7 +67,7 @@ const Layout = ({ location, title, children }) => {
         {
           <p>
             <a href="https://app.netlify.com/sites/hirune-blog/deploys">
-              <img src="https://api.netlify.com/api/v1/badges/f2753f9e-c221-40f9-bea4-077d69cc8e95/deploy-status"></img>
+              <img src="https://api.netlify.com/api/v1/badges/f2753f9e-c221-40f9-bea4-077d69cc8e95/deploy-status" alt="Netlify Status"/>
             </a>
           </p>
         }
