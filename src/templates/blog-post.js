@@ -48,7 +48,7 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
             tags: {post.frontmatter.tags.map((tag) => {
               return (
                 <Link style={{ boxShadow: `none` }} to={`/tags/${_.kebabCase(tag)}`}>
-                  {tag} {' '}
+                  {`${tag} `}
                 </Link>
               )
             })}
