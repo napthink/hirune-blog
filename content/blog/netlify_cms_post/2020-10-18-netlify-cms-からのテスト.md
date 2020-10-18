@@ -2,9 +2,10 @@
 title: Netlify CMS からのテスト
 date: 2020-10-18 16:54
 tags:
-  - チャーハン
-  - 飯テロ
+  - 雑記
 ---
 ケバブチャーハン。
 
-![kebabu chahan](/img/upload/img_0079.jpg "kebabu chahan")
+
+
+![kebabu cha-han](/images/uploads/img_0079.jpg "kebabu cha-han")
