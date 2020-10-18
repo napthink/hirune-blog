@@ -7,4 +7,4 @@ tags:
 ---
 ケバブチャーハン。
 
-![kebabu chahan](/img/upload/img_0079.jpg "kebabu chahan")
+![kebabu chahan]( "kebabu chahan")
