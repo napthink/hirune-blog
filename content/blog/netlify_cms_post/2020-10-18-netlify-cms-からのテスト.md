@@ -6,5 +6,3 @@ tags:
   - 飯テロ
 ---
 ケバブチャーハン。
-
-![kebabu chahan]( "kebabu chahan")
