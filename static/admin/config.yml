@@ -35,14 +35,6 @@ collections:
           required: false,
         }
       - {
-          label: 'Category',
-          name: 'category',
-          widget: 'relation',
-          collection: 'categorylist',
-          searchFields: 'name',
-          valueField: 'name',
-        }
-      - {
           label: 'Tags',
           name: 'tags',
           widget: 'list',
