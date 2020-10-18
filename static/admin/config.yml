@@ -7,10 +7,10 @@ locale: 'ja'
 collections:
   - name: 'post'
     label: 'Post'
-    folder: 'content/blog'
+    folder: 'content/blog/{{year}}-{{month}}-{{day}}-{{slug}}'
     create: true
     extension: 'md'
-    slug: '"{{year}}-{{month}}-{{day}}-{{slug}}"'
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
       - {
