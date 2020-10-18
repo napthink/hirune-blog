@@ -1,8 +1,8 @@
 backend:
   name: git-gateway
 publish_mode: editorial_workflow
-media_folder: 'content/post/img/upload'
-public_folder: '/img/upload'
+media_folder: "static/images/uploads"
+public_folder: "/images/uploads"
 locale: 'ja'
 collections:
   - name: 'post'
