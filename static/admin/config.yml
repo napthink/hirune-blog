@@ -7,7 +7,7 @@ locale: 'ja'
 collections:
   - name: 'post'
     label: 'Post'
-    folder: 'content/blog/{{year}}-{{month}}-{{day}}-{{slug}}'
+    folder: 'content/blog/netlify_cms_post'
     create: true
     extension: 'md'
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
