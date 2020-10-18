@@ -7,26 +7,17 @@ locale: 'ja'
 collections:
   - name: 'post'
     label: 'Post'
-    folder: 'content/post'
+    folder: 'content/blog'
     create: true
     extension: 'md'
-    slug: '{{fields.slug}}'
+    slug: '"{{year}}-{{month}}-{{day}}-{{slug}}"'
     fields:
-      - { label: 'Slug', name: 'slug', widget: 'string' }
       - { label: 'Title', name: 'title', widget: 'string' }
       - {
           label: 'Date',
           name: 'date',
           widget: 'datetime',
           format: 'YYYY-MM-DD HH:mm',
-        }
-      - {
-          label: 'Update',
-          name: 'update',
-          default: '',
-          widget: 'datetime',
-          format: 'YYYY-MM-DD HH:mm',
-          required: false,
         }
       - {
           label: 'Description',
