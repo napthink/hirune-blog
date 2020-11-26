@@ -48,7 +48,7 @@ None   # <- 5が返ってきてほしい
 
 [課題 15851: Lib/robotparser\.py doesn't accept setting a user agent string, instead it uses the default\. \- Python tracker](https://bugs.python.org/issue15851)
 
-上記サイトによると、urllibがrobots.txtを開く際に使用しているデフォルトのユーザーエージェントがサイトからブロックされている場合があるためなようだ。
+上記サイトによると、urllibがrobots.txtを開く際に使用しているデフォルトのユーザーエージェントがサイトからブロックされている場合があるようだ。
 
 たしかに、urllib.request.urlopen()を直接叩いて https://gihyo.jp/robots.txt にアクセスしようとすると、403が返ってくる。
 
