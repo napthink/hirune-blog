@@ -1,6 +1,9 @@
 ---
-title: pythonのurllib.robotparserが失敗するときの対処法
+title: Python の urllib.robotparser が失敗するときの対処法
 date: 2020-11-27 00:13
+tags:
+  - Python
+  - scraping
 ---
 Python の `urllib.robotparse` を使ってrobot.txtをパースしようとしたらハマったのでメモ。
 
