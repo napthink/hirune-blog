@@ -2,13 +2,13 @@ module.exports = {
   siteMetadata: {
     title: `hirune's Blog`,
     author: {
-      name: `hirune`,
+      name: `hirunet`,
       summary: `日記やプログラミングに関するメモなど`,
     },
     description: `日記やプログラミングに関するメモなど`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.app/`,
+    siteUrl: `https://hirunet.me/`,
     social: {
-      twitter: `hk03ne`,
+      twitter: `hirunet_`,
     },
   },
   plugins: [
