@@ -1,7 +1,6 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
 
-import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { rhythm, scale } from "../utils/typography"
@@ -37,7 +36,7 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
             }}
           >
             {post.frontmatter.date}
-          </p> 
+          </p>
           <p
             style={{
               ...scale(-1 / 5),
@@ -46,12 +45,12 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
             }}
           >
             tags: {post.frontmatter.tags.map((tag) => {
-              return (
-                <Link style={{ boxShadow: `none` }} to={`/tags/${_.kebabCase(tag)}`}>
-                  {`${tag} `}
-                </Link>
-              )
-            })}
+            return (
+              <Link style={{ boxShadow: `none` }} to={`/tags/${_.kebabCase(tag)}`}>
+                {`${tag} `}
+              </Link>
+            )
+          })}
           </p>
         </header>
         <section dangerouslySetInnerHTML={{ __html: post.html }} />
@@ -61,7 +60,6 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
           }}
         />
         <footer>
-          <Bio />
         </footer>
       </article>
 

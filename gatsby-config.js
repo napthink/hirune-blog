@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `hirune's Blog`,
+    title: `昼寝学習帳`,
     author: {
       name: `hirunet`,
       summary: `日記やプログラミングに関するメモなど`,
