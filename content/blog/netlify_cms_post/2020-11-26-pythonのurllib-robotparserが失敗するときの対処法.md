@@ -46,6 +46,8 @@ False  # <- Trueが返ってきてほしい
 None   # <- 5が返ってきてほしい
 ```
 
+## ユーザーエージェントの変更
+
 [課題 15851: Lib/robotparser\.py doesn't accept setting a user agent string, instead it uses the default\. \- Python tracker](https://bugs.python.org/issue15851)
 
 上記サイトによると、urllibがrobots.txtを開く際に使用しているデフォルトのユーザーエージェントがサイトからブロックされている場合があるようだ。
