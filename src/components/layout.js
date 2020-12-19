@@ -63,18 +63,13 @@ const Layout = ({ location, title, children }) => {
           marginTop: rhythm(1.5),
         }}
       >
-        {
-          <p>
-            <a href="https://app.netlify.com/sites/hirune-blog/deploys">
-              <img src="https://api.netlify.com/api/v1/badges/f2753f9e-c221-40f9-bea4-077d69cc8e95/deploy-status" alt="Netlify Status" />
-            </a>
-          </p>
-        }
+        by hirunet <a href="https://twitter.com/hirunet_">@hirunet_</a><br />
+
         © {new Date().getFullYear()}, Built with
-        {` `}
+      {` `}
         <a href="https://www.gatsbyjs.org">Gatsby</a>
       </footer>
-    </div>
+    </div >
   )
 }
 
